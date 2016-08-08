@@ -10,7 +10,7 @@ function showView(viewID) {
 
 $(function () {
     showHideNavigationLinks();
-    showView('viewHome');
+    showView('viewHome');f
     $('#link-home').click(showHomeView);
     $('#link-login').click(showLoginView);
     $('#link-register').click(showRegisterView);
