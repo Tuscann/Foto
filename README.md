@@ -1,11 +1,11 @@
-<h1><b>Foto</b></h1>
+<h1><b>Photo Gallery</b></h1>
 
 
 https://github.com/KamenBoneff - Kamen Bonef
 
 https://github.com/Martacuz - Martin Goranov
 
-Photo Gallery
+
 
 This is a homework project for Software University - http://www.softuni.bg
 
