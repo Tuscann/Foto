@@ -1,7 +1,3 @@
-/**
- * Created by tangrila on 26-Jun-16.
- */
-
 const kinveyBaseUrl = "https://baas.kinvey.com/";
 const kinveyAppId = "kid_By0qzDpH";
 const kinveyAppSecret = "44e18f3c45564defb69f28dd6eb853bd";
