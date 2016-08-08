@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books Library</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <script src="libraries/jquery-3.0.0.min.js"></script>
+    <script src="libraries/books.js"></script>
+
+</head>
+<body>
+<header>
+    <a href="#" id="link-home">Home</a>
+    <a href="#" id="link-login">Login</a>
+    <a href="#" id="link-register">Register</a>
+    <a href="#" id="link-list-books">List Books</a>
+    <a href="#" id="link-create-books">Create Books</a>
+    <a href="#" id="link-logout">Logout</a>
+
+</header>
+<main>
+    <section id="loadingBox">Loading...</section>
+    <section id="infoBox">Info</section>
+    <section id="errorBox">Error..</section>
+    <section id="viewHome">
+        <h1>Welcome</h1>
+        <div>Welcome to my book library</div>
+    </section>
+    <section id="viewLogin">
+        <h1>Please login</h1>
+            <form id="formLogin">
+            <div>Username:</div>
+            <div><input type="text" id="loginUser" required="true"/></div>
+            <h1>Password:</h1>
+            <div><input type="password" id="loginPass" required="true"/></div>
+            <div><input type="submit" value="Login"/></div>
+        </form>
+    </section>
+
+    <section id="viewRegister">
+        <h1>Please register</h1>
+            <form id="formRegister">
+            <div>Username:</div>
+            <div><input type="text" id="registerUser" required="true"/></div>
+            <h1>Password:</h1>
+            <div><input type="password" id="registerPass" required="true"/></div>
+            <div><input type="submit" value="Register"/></div>
+        </form>
+    </section>
+    <section id="viewListBook">
+        <h1>Books</h1>
+        <div id="books"></div>
+
+    </section>
+    <section id="viewCreateBook">
+        <h1>Create new book</h1>
+        <form id="form-createBook" style="display: none;">
+            <div>Title:</div>
+            <div><input type="text" id="bookTitle" requared/></div>
+            <div>Author:</div>
+            <div><input type="text" id="bookAuthor" requared/></div>
+            <div>Description:</div>
+            <div><textarea id="book-description" rows="10" required style="resize: none"></textarea> </div>
+            <div><input type="submit" value="Create Book"/></div>
+        </form>
+    </section>
+</main>
+<footer>
+
+
+</footer>
+</body>
+</html>
