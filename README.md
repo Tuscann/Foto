@@ -1,6 +1,15 @@
-# Foto
+Foto
 
 Photo Gallery
+
+This is a homework project for Software University - SoftUni
+
+http://www.softuni.bg
+
+
+
+
+
 Design and implement a simple photo gallery (photo album).
 Required functionalities:
 •	User registration (and optionally user profiles) / login / logout.
