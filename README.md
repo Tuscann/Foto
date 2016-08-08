@@ -10,7 +10,7 @@ Photo Gallery
 This is a homework project for Software University - http://www.softuni.bg
 
 
-<h2><b>Design and implement a simple photo gallery (photo album).</b></h2>
+<h2><b>Design and implement a simple photo gallery.</b></h2>
 
 Required functionalities:
 
