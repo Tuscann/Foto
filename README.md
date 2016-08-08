@@ -1,5 +1,9 @@
 Foto
 
+
+https://github.com/KamenBoneff - Kamen Bonef
+https://github.com/Martacuz - Martin Goranov
+
 Photo Gallery
 
 This is a homework project for Software University - SoftUni
