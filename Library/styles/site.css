@@ -1,0 +1,108 @@
+/* <--- NAVIGATION ---> */
+/* primary colors: reds #85001f, #b0032b, #d80335
+   secondary: yellow #ffcc00;
+*/
+header, footer {
+    /* http://www.cssmatic.com/gradient-generator# */
+    background: #85001f;
+    /* Old Browsers */
+    background: -moz-linear-gradient(left, #85001f 0%, #b0032b 53%, #d80335 100%);
+    /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, #85001f 0%, #b0032b 53%, #d80335 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #85001f 0%, #b0032b 53%, #d80335 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #85001f 0%, #b0032b 53%, #d80335 100%);
+    /* IE 10+ */
+    background: linear-gradient(to right, #85001f 0%, #b0032b 53%, #d80335 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85001f', endColorstr='#d80335', GradientType=1 );
+    padding: 5px 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+    header a {
+        text-decoration: none;
+        color: #ffcc00;
+        padding: 5px 15px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+.hvr-sweep-to-left:before {
+    background: #ffcc00;
+}
+    .hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+        color: #85001f;
+}
+
+footer {
+    color: #ffcc00;
+    margin-top: 10px;
+}
+
+/* <--- NOTIFICATIONS ---> */
+#loadingBox, #infoBox, #errorBox {
+    display: none;
+    background: #aaaaaa;
+    padding: 5px 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#loadingBox {
+    background: #7CB3E9;
+}
+
+#infoBox {
+    background: #ffcc00;
+}
+
+#errorBox {
+    background: #b0032b;
+    color: white;
+}
+
+/* <--- BODY --- > */
+main > section{
+    display:none;
+}
+h1 {
+    font-family: Ubuntu;
+}
+section {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: Roboto;
+}
+/* <--- BUTTONS ---> */
+input[type='submit'] {
+    font-family: Roboto;
+}
+/* <--- TABLE --->*/
+table {
+    margin: auto;
+}
+    table th {
+        background: #b0032b;
+        color: white;
+        font-family: Ubuntu;
+    }
+    table td {
+        background: #ffcc00;
+        font-family: Roboto;
+    }
+    table th, table td {
+        padding: 5px 10px;
+    }
+

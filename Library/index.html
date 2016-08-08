@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="styles/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css"
+          href="styles/site.css" />
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script src="scripts/library.js"></script>
+    <meta charset="UTF-8">
+    <title>Library</title>
+</head>
+<body>
+    <!--- NAVIGATION --->
+    <header id="menu">
+        <a href="#" class="hvr-sweep-to-left" id="linkHome">Home</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkLogin">Login</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkRegister">Register</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkListBooks">List Books</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkCreateBook">Create Book</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkLogout">Logout</a>
+    </header>
+
+    <main>
+        <!--- NOTIFICATIONS --->
+
+        <section id="loadingBox" >
+            Loading...
+        </section>
+        <section id="infoBox" onclick="$(this).fadeOut(0500)">
+            Info
+        </section>
+        <section id="errorBox" onclick="$(this).fadeOut(0500)">
+            Error!
+        </section>
+        <!--- CONTENT --->
+
+        <section id="viewHome" >
+            <h1>Welcome</h1>
+            <div>Welcome to this Sample Library Project</div>
+        </section>
+        <section id="viewLogin" >
+            <h1>Please login</h1>
+            <form id="formLogin">
+                <div>Username:</div>
+                <div>
+                    <input type="text" id="userLogin" required="true" />
+                 </div>
+                <div>Password:</div>
+                <div>
+                    <input type="password" id="passLogin" required="tue" />
+                </div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </section>
+        <section id="viewRegister" >
+            <h1>Please register</h1>
+            <form id="formRegister">
+                <div>Username:</div>
+                <div>
+                    <input type="text" id="userRegister" required="true" />
+                </div>
+                <div>Password:</div>
+                <div>
+                    <input type="password" id="passRegister" required="tue" />
+                </div>
+                <div>
+                    <input type="submit" value="Register" />
+                </div>
+            </form>
+        </section>
+        <section id="viewListBooks">
+            <h1>List of available books</h1>
+        <div id="books">
+            No books
+        </div>
+        </section>
+        <section id="viewCreateBook" >
+            <h1>Create new book</h1>
+            <form id="formCreateBook">
+                <div>Title:</div>
+                <div>
+                    <input type="text" id="bookTitle" required="true" />
+                </div>
+                <div>Author:</div>
+                <div>
+                    <input type="text" id="bookAuthor" required="tue" />
+                </div>
+                <div>Description:</div>
+                <div>
+                    <textarea id="bookDescription" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Create" />
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Sample Library Project &trade;
+    </footer>
+</body>
+</html>
