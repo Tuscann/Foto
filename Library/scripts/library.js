@@ -1,6 +1,6 @@
 const kinveyBaseUrl = "https://baas.kinvey.com/";
-const kinveyAppId = "kid_HkeR1ltF";
-const kinveyAppSecret = "a024e57186fd4d15b6b50623113bdc8e";
+const kinveyAppId = "kid_H1zbzqrK";
+const kinveyAppSecret = "d50295cd8c864b51bcfd95928a0082f3";
 
 
 /* <--- NAVIGATION MENU TOGGLE ---> */
