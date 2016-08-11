@@ -59,7 +59,7 @@ function showProfileView() {
 	showView('viewProfile');
 	getProfile();
 }
-function login(username, password) {
+function login(username, password, callback) {
 	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
 	let loginUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/login";
 	let loginData = {
@@ -71,18 +71,18 @@ function login(username, password) {
 		url: loginUrl,
 		data: loginData,
 		headers: { "Authorization": "Basic " + authBase64},
-		success: loginSuccess,
+		success: callback,
 		error: showAjaxError
 	});
-	function loginSuccess(data, status) {
-		showInfo("Login Successful");
-		localStorage.setItem('authToken', data._kmd.authtoken);
-		localStorage.setItem('id', data._id);
-		localStorage.setItem('username', data.username);		
-		showHomeView();
-		showListBooksView();
-		showHideNavigationLinks();
-	}
+}
+function loginSuccess(data, status) {
+	showInfo("Login Successful");
+	localStorage.setItem('authToken', data._kmd.authtoken);
+	localStorage.setItem('id', data._id);
+	localStorage.setItem('username', data.username);		
+	showHomeView();
+	showListBooksView();
+	showHideNavigationLinks();
 	$('#userLogin').val('');
 	$('#passLogin').val('');
 }
@@ -102,42 +102,29 @@ function getProfile() {
 	}
 }
 function updateProfile() {
-	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
-	let loginUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/login";
-	let loginData = {
-		username: localStorage.getItem('username'),
-		password: $('#passProfile').val(),
+	login(localStorage.getItem('username'), $('#passProfile').val(), updateProfileCallback)
+}
+function updateProfileCallback(data, status) {
+	let profileUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/" + localStorage.getItem('id');
+	let profileData = {
+		password: $('#newpassProfile').val(),
+		name: $('#nameProfile').val(),
+		email: $('#emailProfile').val(),
 	};
 	$.ajax({
-		method: "POST",
-		url: loginUrl,
-		data: loginData,
-		headers: { "Authorization": "Basic " + authBase64},
-		success: loginSuccess,
+		method: "PUT",
+		url: profileUrl,
+		contentType: 'application/json',
+		data: JSON.stringify(profileData),
+		headers: { "Authorization": "Kinvey " + localStorage.getItem('authToken') },
+		success: profileSuccess,
 		error: showAjaxError
 	});
-	function loginSuccess(data, status) {
-		let profileUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/" + localStorage.getItem('id');
-		let profileData = {
-			password: $('#newpassProfile').val(),
-			name: $('#nameProfile').val(),
-			email: $('#emailProfile').val(),
-		};
-		$.ajax({
-			method: "PUT",
-			url: profileUrl,
-			contentType: 'application/json',
-			data: JSON.stringify(profileData),
-			headers: { "Authorization": "Kinvey " + localStorage.getItem('authToken') },
-			success: profileSuccess,
-			error: showAjaxError
-		});
-		function profileSuccess(data, status) {
-			showInfo("Updated profile");			
-			localStorage.setItem('authToken', data._kmd.authtoken);
-			localStorage.setItem('id', data._id);
-			localStorage.setItem('username', data.username);		
-		}
+	function profileSuccess(data, status) {
+		showInfo("Updated profile");			
+		localStorage.setItem('authToken', data._kmd.authtoken);
+		localStorage.setItem('id', data._id);
+		localStorage.setItem('username', data.username);		
 	}
 }
 function showRegisterView() {
@@ -300,7 +287,7 @@ $(function () {
 	$('#formLogin').submit(function(e)
 	{
 		e.preventDefault();
-		login($("#userLogin").val(), $("#passLogin").val());
+		login($("#userLogin").val(), $("#passLogin").val(), loginSuccess);
 	});
 	$('#formRegister').submit(function(e)
 	{e.preventDefault(); register()});
