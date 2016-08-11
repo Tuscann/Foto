@@ -14,6 +14,7 @@
 <body>
     <header id="menu">
         <a href="#" class="hvr-sweep-to-left" id="linkHome">Home</a>
+        <a href="#" class="hvr-sweep-to-left" id="linkProfile">Profile</a>        
         <a href="#" class="hvr-sweep-to-left" id="linkLogin">Login</a>
         <a href="#" class="hvr-sweep-to-left" id="linkRegister">Register</a>
         <a href="#" class="hvr-sweep-to-left" id="linkListBooks">List Books</a>
@@ -39,6 +40,32 @@
             <h1>Welcome</h1>
             <div>Welcome to Foto Gallery</div>
         </section>
+        <section id="viewProfile" >
+            <h1>User profile</h1>
+            <div>
+                <form id="profileForm">
+                    <div>Name:</div>
+                    <div>
+                        <input type="text" id="nameProfile" required="true" />
+                    </div>
+                    <div>Email:</div>
+                    <div>
+                        <input type="email" id="emailProfile" required="true" />
+                    </div>
+                    <div>Old password:</div>
+                    <div>
+                        <input type="password" id="passProfile" required="tue" />
+                    </div>
+                    <div>New password:</div>
+                    <div>
+                        <input type="password" id="newpassProfile" required="tue" />
+                    </div>
+                    <div>
+                        <input type="submit" value="Update profile" />
+                    </div>
+                </form>
+            </div>
+        </section>
         <section id="viewLogin" >
             <h1>Please login</h1>
             <form id="formLogin">
@@ -58,6 +85,14 @@
         <section id="viewRegister" >
             <h1>Please register</h1>
             <form id="formRegister">
+                <div>Name:</div>
+                <div>
+                    <input type="text" id="nameRegister" required="true" />
+                </div>
+                <div>Email:</div>
+                <div>
+                    <input type="email" id="emailRegister" required="true" />
+                </div>
                 <div>Username:</div>
                 <div>
                     <input type="text" id="userRegister" required="true" />

@@ -1,20 +1,22 @@
 const kinveyBaseUrl = "https://baas.kinvey.com/";
-const kinveyAppId = "kid_By0qzDpH";
-const kinveyAppSecret = "44e18f3c45564defb69f28dd6eb853bd";
+const kinveyAppId = "kid_HkeR1ltF";
+const kinveyAppSecret = "a024e57186fd4d15b6b50623113bdc8e";
 
 
 /* <--- NAVIGATION MENU TOGGLE ---> */
 function showHideNavigationLinks() {
-	let loggedIn = sessionStorage.authToken != null;
+	let loggedIn = localStorage.getItem('authToken') != null;
 	if (loggedIn)
 	{
 		$("#linkLogin").hide();
+		$("#linkProfile").show();		
 		$("#linkRegister").hide();
 		$("#linkListBooks").show();
 		$("#linkCreateBook").show();
 		$("#linkLogout").show();
 	} else {
 		$("#linkLogin").show();
+		$("#linkProfile").hide();		
 		$("#linkRegister").show();
 		$("#linkListBooks").hide();
 		$("#linkCreateBook").hide();
@@ -53,13 +55,16 @@ function showHomeView() {
 function showLoginView() {
 	showView('viewLogin')
 }
-
-function login() {
+function showProfileView() {
+	showView('viewProfile');
+	getProfile();
+}
+function login(username, password) {
 	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
 	let loginUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/login";
 	let loginData = {
-		username: $("#userLogin").val(),
-		password: $("#passLogin").val(),
+		username: username,
+		password: password,
 	};
 	$.ajax({
 		method: "POST",
@@ -71,14 +76,70 @@ function login() {
 	});
 	function loginSuccess(data, status) {
 		showInfo("Login Successful");
-		sessionStorage.authToken = data._kmd.authtoken;
+		localStorage.setItem('authToken', data._kmd.authtoken);
+		localStorage.setItem('id', data._id);
+		localStorage.setItem('username', data.username);		
+		showHomeView();
 		showListBooksView();
 		showHideNavigationLinks();
 	}
 	$('#userLogin').val('');
 	$('#passLogin').val('');
 }
-
+function getProfile() {
+	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
+	let profileUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/" + localStorage.getItem('id');
+	$.ajax({
+		method: "GET",
+		url: profileUrl,
+		headers: { "Authorization": "Kinvey " + localStorage.getItem('authToken')},
+		success: profileSuccess,
+		error: showAjaxError
+	});
+	function profileSuccess(data, status) {
+		$('#nameProfile').val(data.name);
+		$('#emailProfile').val(data.email);
+	}
+}
+function updateProfile() {
+	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
+	let loginUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/login";
+	let loginData = {
+		username: localStorage.getItem('username'),
+		password: $('#passProfile').val(),
+	};
+	$.ajax({
+		method: "POST",
+		url: loginUrl,
+		data: loginData,
+		headers: { "Authorization": "Basic " + authBase64},
+		success: loginSuccess,
+		error: showAjaxError
+	});
+	function loginSuccess(data, status) {
+		let profileUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/" + localStorage.getItem('id');
+		let profileData = {
+			password: $('#newpassProfile').val(),
+			name: $('#nameProfile').val(),
+			email: $('#emailProfile').val(),
+		};
+		$.ajax({
+			method: "PUT",
+			url: profileUrl,
+			contentType: 'application/json',
+			data: JSON.stringify(profileData),
+			headers: { "Authorization": "Kinvey " + localStorage.getItem('authToken') },
+			success: profileSuccess,
+			error: showAjaxError
+		});
+		function profileSuccess(data, status) {
+			showInfo("Updated profile");			
+			localStorage.setItem('authToken', data._kmd.authtoken);
+			localStorage.setItem('id', data._id);
+			localStorage.setItem('username', data.username);		
+		}
+	}
+}
 function showRegisterView() {
 	showView('viewRegister')
 }
@@ -87,6 +148,8 @@ function register() {
 	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
 	let registerUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/";
 	let registerData = {
+		name: $("#nameRegister").val(),
+		email: $("#emailRegister").val(),		
 		username: $("#userRegister").val(),
 		password: $("#passRegister").val(),
 	};
@@ -100,8 +163,11 @@ function register() {
 	});
 	function registerSuccess(data, status) {
 		showInfo("Registration Successful!");
-		sessionStorage.authToken = data._kmd.authtoken;
+		localStorage.setItem('authToken', data._kmd.authtoken);
+		localStorage.setItem('id', data._id);
+		localStorage.setItem('username', data.username);		
 		showHideNavigationLinks();
+		showHomeView();
 	}
 	$('#userRegister').val('');
 	$('#passRegister').val('');
@@ -110,7 +176,7 @@ function register() {
 function showListBooksView() {
 	showView('viewListBooks')
 	$('#bookTitle').empty();
-	let authHeaders = { "Authorization": "Kinvey " + sessionStorage.authToken};
+	let authHeaders = { "Authorization": "Kinvey " + localStorage.getItem('authToken')};
 	let booksUrl = kinveyBaseUrl + "appdata/" + kinveyAppId + "/books";
 	$.ajax({
 		method: "GET",
@@ -150,7 +216,7 @@ function showCreateBookView() {
 }
 
 function createBook() {
-	let authHeaders = { "Authorization": "Kinvey " + sessionStorage.authToken,
+	let authHeaders = { "Authorization": "Kinvey " + localStorage.getItem('authToken'),
 		"Content-Type": "application/json"}
 	let booksUrl = kinveyBaseUrl + "appdata/" + kinveyAppId + "/books";
 	let newBookData = {
@@ -178,7 +244,7 @@ function createBook() {
 function addBookComment(bookData, commentText, commentAuthor) {
 	const kinveyBooksUrl = kinveyBaseUrl + "appdata/" + kinveyAppId + "/books";
 	const kinveyHeaders = {
-		'Authorization': 'Kinvey ' + sessionStorage.authToken,
+		'Authorization': 'Kinvey ' + localStorage.getItem('authToken'),
 		'Content-type': 'application/json'
 	};
 
@@ -204,14 +270,26 @@ function addBookComment(bookData, commentText, commentAuthor) {
 
 function logout() {
 	alert('Logout');
-	sessionStorage.clear();
-	showHomeView();
-	showHideNavigationLinks();
+	$.ajax({
+		method: "POST",
+		url: kinveyBaseUrl + 'user/' + kinveyAppId + '/_logout',
+		headers: { "Authorization": "Kinvey " + localStorage.getItem('authToken')},
+		success: loggedOut,
+		error: showAjaxError
+	});
+	function loggedOut() {
+		localStorage.removeItem('authToken');
+		localStorage.removeItem('id');
+		localStorage.removeItem('username');	
+		showHomeView();
+		showHideNavigationLinks();
+	}
 }
 
 $(function () {
 	/* Navigation */
 	$("#linkHome").click(showHomeView);
+	$("#linkProfile").click(showProfileView);	
 	$("#linkLogin").click(showLoginView);
 	$("#linkRegister").click(showRegisterView);
 	$("#linkListBooks").click(showListBooksView);
@@ -220,9 +298,14 @@ $(function () {
 
 	/* Submit Buttons */
 	$('#formLogin').submit(function(e)
-	{e.preventDefault(); login()});
+	{
+		e.preventDefault();
+		login($("#userLogin").val(), $("#passLogin").val());
+	});
 	$('#formRegister').submit(function(e)
 	{e.preventDefault(); register()});
+	$('#profileForm').submit(function(e)
+	{e.preventDefault(); updateProfile()});
 	$('#formCreateBook').submit(function(e)
 	{e.preventDefault(); createBook()});
 

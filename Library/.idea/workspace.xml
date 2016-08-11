@@ -33,20 +33,19 @@
       <file leaf-file-name="hover.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/hover.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27222">
+            <state relative-caret-position="39702">
               <caret line="1527" column="1" selection-start-line="1527" selection-start-column="1" selection-end-line="1527" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="library.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/library.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="1116">
+              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding>
-                <element signature="n#!!block;n#showHideNavigationLinks#0" expanded="false" />
                 <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
                 <element signature="n#!!block;n#showInfo#0" expanded="false" />
                 <element signature="n#!!block;n#showView#0" expanded="false" />
@@ -55,18 +54,22 @@
                 <element signature="n#!!block;n#login#0" expanded="false" />
                 <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
                 <element signature="n#!!block;n#register#0" expanded="false" />
+                <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
                 <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
                 <element signature="n#!!block;n#createBook#0" expanded="false" />
+                <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+                <element signature="n#!!block;n#logout#0" expanded="false" />
+                <element signature="e#5257#6004#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="348">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
                 <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -91,9 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/scripts/library.ts" />
         <option value="$PROJECT_DIR$/styles/hover.css" />
-        <option value="$PROJECT_DIR$/scripts/library.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/site.css" />
+        <option value="$PROJECT_DIR$/scripts/library.js" />
       </list>
     </option>
   </component>
@@ -251,20 +254,20 @@
       <updated>1466950708486</updated>
       <workItem from="1466950709753" duration="35030000" />
       <workItem from="1467130891309" duration="3703000" />
-      <workItem from="1470634819122" duration="2201000" />
+      <workItem from="1470634819122" duration="3987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40934000" />
+    <option name="totallyTimeSpent" value="42720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="40" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.096354164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -290,6 +293,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -319,7 +327,6 @@
         <state relative-caret-position="986">
           <caret line="143" column="53" selection-start-line="143" selection-start-column="53" selection-end-line="143" selection-end-column="53" />
           <folding>
-            <element signature="n#!!block;n#showHideNavigationLinks#0" expanded="false" />
             <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
             <element signature="n#!!block;n#showInfo#0" expanded="false" />
             <element signature="n#!!block;n#showView#0" expanded="false" />
@@ -328,8 +335,12 @@
             <element signature="n#!!block;n#login#0" expanded="false" />
             <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
             <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
             <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
             <element signature="n#!!block;n#createBook#0" expanded="false" />
+            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+            <element signature="e#5257#6004#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -371,16 +382,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/library.ts" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -391,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/hover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27222">
+        <state relative-caret-position="39702">
           <caret line="1527" column="1" selection-start-line="1527" selection-start-column="1" selection-end-line="1527" selection-end-column="1" />
           <folding />
         </state>
@@ -399,10 +400,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="1116">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding>
-            <element signature="n#!!block;n#showHideNavigationLinks#0" expanded="false" />
             <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
             <element signature="n#!!block;n#showInfo#0" expanded="false" />
             <element signature="n#!!block;n#showView#0" expanded="false" />
@@ -411,8 +411,22 @@
             <element signature="n#!!block;n#login#0" expanded="false" />
             <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
             <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
             <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
             <element signature="n#!!block;n#createBook#0" expanded="false" />
+            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+            <element signature="e#5257#6004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
