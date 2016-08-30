@@ -9,14 +9,16 @@ function showHideNavigationLinks() {
 	if (loggedIn)
 	{
 		$("#linkLogin").hide();
-		$("#linkProfile").show();		
+		$("#linkProfile").show();
+		$("#linkPictures").show()
 		$("#linkRegister").hide();
 		$("#linkListBooks").show();
 		$("#linkCreateBook").show();
 		$("#linkLogout").show();
 	} else {
 		$("#linkLogin").show();
-		$("#linkProfile").hide();		
+		$("#linkProfile").hide();
+		$("#linkPictures").hide()
 		$("#linkRegister").show();
 		$("#linkListBooks").hide();
 		$("#linkCreateBook").hide();
@@ -55,6 +57,11 @@ function showHomeView() {
 function showLoginView() {
 	showView('viewLogin')
 }
+
+function showPicturesView() {
+	showView('PicturesView')
+}
+
 function showProfileView() {
 	showView('viewProfile');
 	getProfile();
@@ -276,7 +283,8 @@ function logout() {
 $(function () {
 	/* Navigation */
 	$("#linkHome").click(showHomeView);
-	$("#linkProfile").click(showProfileView);	
+	$("#linkProfile").click(showProfileView);
+	$("#linkPictures").click(showPicturesView);
 	$("#linkLogin").click(showLoginView);
 	$("#linkRegister").click(showRegisterView);
 	$("#linkListBooks").click(showListBooksView);
