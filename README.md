@@ -1,9 +1,13 @@
 <h1><b>Photo Gallery</b></h1>
 
 
+
+
 https://github.com/KamenBoneff - Kamen Bonef
 
 https://github.com/Martacuz - Martin Goranov
+
+https://github.com/Tuscann - Zhivko Nedqalkov
 
 
 
