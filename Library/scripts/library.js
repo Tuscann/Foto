@@ -10,7 +10,8 @@ function showHideNavigationLinks() {
 	{
 		$("#linkLogin").hide();
 		$("#linkProfile").show();
-		$("#linkPictures").show()
+		$("#linkPictures").show();
+		$("#linkVideos").show();
 		$("#linkRegister").hide();
 		$("#linkListBooks").show();
 		$("#linkCreateBook").show();
@@ -18,7 +19,8 @@ function showHideNavigationLinks() {
 	} else {
 		$("#linkLogin").show();
 		$("#linkProfile").hide();
-		$("#linkPictures").hide()
+		$("#linkPictures").hide();
+		$("#linkVideos").hide();
 		$("#linkRegister").show();
 		$("#linkListBooks").hide();
 		$("#linkCreateBook").hide();
@@ -49,19 +51,18 @@ function showView(viewId) {
 	$("main > section").hide();
 	$("#" + viewId).show();
 }
-
 function showHomeView() {
 	showView('viewHome')
 }
-
 function showLoginView() {
 	showView('viewLogin')
 }
-
+function showVideosView() {
+	showView('VideosView')
+}
 function showPicturesView() {
 	showView('PicturesView')
 }
-
 function showProfileView() {
 	showView('viewProfile');
 	getProfile();
@@ -137,7 +138,6 @@ function updateProfileCallback(data, status) {
 function showRegisterView() {
 	showView('viewRegister')
 }
-
 function register() {
 	let authBase64 = btoa(kinveyAppId + ":" + kinveyAppSecret);
 	let registerUrl = kinveyBaseUrl + "user/" + kinveyAppId + "/";
@@ -166,7 +166,6 @@ function register() {
 	$('#userRegister').val('');
 	$('#passRegister').val('');
 }
-
 function showListBooksView() {
 	showView('viewListBooks')
 	$('#bookTitle').empty();
@@ -204,11 +203,9 @@ function showListBooksView() {
 		$('#books').append(booksTable);
 	}
 }
-
 function showCreateBookView() {
 	showView('viewCreateBook')
 }
-
 function createBook() {
 	let authHeaders = { "Authorization": "Kinvey " + localStorage.getItem('authToken'),
 		"Content-Type": "application/json"}
@@ -234,7 +231,6 @@ function createBook() {
 		showInfo('Book Created')
 	}
 }
-
 function addBookComment(bookData, commentText, commentAuthor) {
 	const kinveyBooksUrl = kinveyBaseUrl + "appdata/" + kinveyAppId + "/books";
 	const kinveyHeaders = {
@@ -261,7 +257,6 @@ function addBookComment(bookData, commentText, commentAuthor) {
 		showInfo('Book comment added.');
 	}
 }
-
 function logout() {
 	alert('Logout');
 	$.ajax({
@@ -285,6 +280,7 @@ $(function () {
 	$("#linkHome").click(showHomeView);
 	$("#linkProfile").click(showProfileView);
 	$("#linkPictures").click(showPicturesView);
+	$("#linkVideos").click(showVideosView);
 	$("#linkLogin").click(showLoginView);
 	$("#linkRegister").click(showRegisterView);
 	$("#linkListBooks").click(showListBooksView);

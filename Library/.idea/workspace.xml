@@ -19,22 +19,12 @@
     <favorites_list name="Library" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Website Header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Sofuni/Web Fundamentals  -  HTML CSS/Website Header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="148" column="111" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="111" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1091">
-              <caret line="120" column="95" selection-start-line="120" selection-start-column="95" selection-end-line="120" selection-end-column="95" />
+            <state relative-caret-position="449">
+              <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,7 +46,7 @@
       <file leaf-file-name="site.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="364">
               <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
               <folding />
             </state>
@@ -66,11 +56,14 @@
       <file leaf-file-name="library.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/library.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="115">
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
                 <element signature="n#!!block;n#showInfo#0" expanded="false" />
+                <element signature="n#!!block;n#showView#0" expanded="false" />
+                <element signature="n#!!block;n#showHomeView#0" expanded="false" />
+                <element signature="n#!!block;n#showLoginView#0" expanded="false" />
                 <element signature="n#!!block;n#showProfileView#0" expanded="false" />
                 <element signature="n#!!block;n#login#0" expanded="false" />
                 <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
@@ -106,8 +99,9 @@
       <list>
         <option value="$PROJECT_DIR$/scripts/library.ts" />
         <option value="$PROJECT_DIR$/styles/hover.css" />
-        <option value="$PROJECT_DIR$/scripts/library.js" />
         <option value="$PROJECT_DIR$/styles/site.css" />
+        <option value="$PROJECT_DIR$/testttttt.html" />
+        <option value="$PROJECT_DIR$/scripts/library.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -171,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,36 +183,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,11 +274,14 @@
       <workItem from="1472038064170" duration="175000" />
       <workItem from="1472137971951" duration="606000" />
       <workItem from="1472556603431" duration="8220000" />
+      <workItem from="1472569967895" duration="2101000" />
+      <workItem from="1472598723017" duration="5000" />
+      <workItem from="1472632831544" duration="2975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51721000" />
+    <option name="totallyTimeSpent" value="56802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="24" width="1374" height="748" extended-state="6" />
@@ -354,11 +323,180 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
+            <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0" expanded="false" />
+            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
+            <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0" expanded="false" />
+            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sofuni/Web Fundamentals  -  HTML CSS/Website Header.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
+            <element signature="n#!!block;n#showInfo#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
+            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
+            <element signature="n#!!block;n#register#0" expanded="false" />
+            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
+            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
+            <element signature="n#!!block;n#createBook#0" expanded="false" />
+            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -371,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26044">
           <caret line="1532" column="12" selection-start-line="1532" selection-start-column="12" selection-end-line="1532" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -385,7 +522,12 @@
             <element signature="n#!!block;n#showView#0" expanded="false" />
             <element signature="n#!!block;n#showHomeView#0" expanded="false" />
             <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
             <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
             <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
             <element signature="n#!!block;n#register#0" expanded="false" />
             <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
@@ -430,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25959">
           <caret line="1527" column="1" selection-start-line="1527" selection-start-column="1" selection-end-line="1527" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +585,12 @@
             <element signature="n#!!block;n#showView#0" expanded="false" />
             <element signature="n#!!block;n#showHomeView#0" expanded="false" />
             <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
             <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
             <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
             <element signature="n#!!block;n#register#0" expanded="false" />
             <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
@@ -489,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25959">
           <caret line="1527" column="1" selection-start-line="1527" selection-start-column="1" selection-end-line="1527" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +648,12 @@
             <element signature="n#!!block;n#showView#0" expanded="false" />
             <element signature="n#!!block;n#showHomeView#0" expanded="false" />
             <element signature="n#!!block;n#showLoginView#0" expanded="false" />
+            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
             <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
+            <element signature="n#!!block;n#getProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
+            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
             <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
             <element signature="n#!!block;n#register#0" expanded="false" />
             <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
@@ -548,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25959">
           <caret line="1527" column="1" selection-start-line="1527" selection-start-column="1" selection-end-line="1527" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,17 +737,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2415">
           <caret line="1532" column="12" selection-start-line="1532" selection-start-column="12" selection-end-line="1532" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Sofuni/Web Fundamentals  -  HTML CSS/Website Header.html" />
+    <entry file="file://$PROJECT_DIR$/testttttt.html" />
+    <entry file="file://$PROJECT_DIR$/styles/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
+        <state relative-caret-position="115">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
             <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
             <element signature="n#!!block;n#showInfo#0" expanded="false" />
+            <element signature="n#!!block;n#showView#0" expanded="false" />
+            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
+            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
             <element signature="n#!!block;n#showProfileView#0" expanded="false" />
             <element signature="n#!!block;n#login#0" expanded="false" />
             <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
@@ -616,26 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Sofuni/Web Fundamentals  -  HTML CSS/Website Header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="148" column="111" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="138" column="17" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1091">
-          <caret line="120" column="95" selection-start-line="120" selection-start-column="95" selection-end-line="120" selection-end-column="95" />
+        <state relative-caret-position="449">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
