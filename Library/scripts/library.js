@@ -283,6 +283,7 @@ $(function () {
 	$("#linkVideos").click(showVideosView);
 	$("#linkLogin").click(showLoginView);
 	$("#linkRegister").click(showRegisterView);
+
 	$("#linkListBooks").click(showListBooksView);
 	$("#linkCreateBook").click(showCreateBookView);
 	$("#linkLogout").click(logout);

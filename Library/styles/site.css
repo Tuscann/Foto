@@ -99,7 +99,8 @@ main > section {
 }
 
 h1 {
-    font-family: Ubuntu;
+    font-family: Georgia, fantasy;
+    /*Ubuntu;*/
 }
 
 section {
