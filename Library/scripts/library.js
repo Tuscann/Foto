@@ -10,20 +10,20 @@ function showHideNavigationLinks() {
 	{
 		$("#linkLogin").hide();
 		$("#linkProfile").show();
-		$("#linkPictures").show();
+		$("#linkPhotos").show();
 		$("#linkVideos").show();
 		$("#linkRegister").hide();
 		$("#linkListBooks").show();
-		$("#linkCreateBook").show();
+		$("#linkAddPhoto").show();
 		$("#linkLogout").show();
 	} else {
 		$("#linkLogin").show();
 		$("#linkProfile").hide();
-		$("#linkPictures").hide();
+		$("#linkPhotos").hide();
 		$("#linkVideos").hide();
 		$("#linkRegister").show();
 		$("#linkListBooks").hide();
-		$("#linkCreateBook").hide();
+		$("#linkAddPhoto").hide();
 		$("#linkLogout").hide();
 	}
 }
@@ -60,8 +60,8 @@ function showLoginView() {
 function showVideosView() {
 	showView('VideosView')
 }
-function showPicturesView() {
-	showView('PicturesView')
+function showPhotosView() {
+	showView('PhotosView')
 }
 function showProfileView() {
 	showView('viewProfile');
@@ -89,7 +89,7 @@ function loginSuccess(data, status) {
 	localStorage.setItem('id', data._id);
 	localStorage.setItem('username', data.username);		
 	showHomeView();
-	showListBooksView();
+	showPhotosView();
 	showHideNavigationLinks();
 	$('#userLogin').val('');
 	$('#passLogin').val('');
@@ -203,10 +203,10 @@ function showListBooksView() {
 		$('#books').append(booksTable);
 	}
 }
-function showCreateBookView() {
-	showView('viewCreateBook')
+function showAddPhotoView() {
+	showView('viewAddPhoto')
 }
-function createBook() {
+function addPhoto() {
 	let authHeaders = { "Authorization": "Kinvey " + localStorage.getItem('authToken'),
 		"Content-Type": "application/json"}
 	let booksUrl = kinveyBaseUrl + "appdata/" + kinveyAppId + "/books";
@@ -279,12 +279,13 @@ $(function () {
 	/* Navigation */
 	$("#linkHome").click(showHomeView);
 	$("#linkProfile").click(showProfileView);
-	$("#linkPictures").click(showPicturesView);
+	$("#linkPhotos").click(showPhotosView);
 	$("#linkVideos").click(showVideosView);
 	$("#linkLogin").click(showLoginView);
 	$("#linkRegister").click(showRegisterView);
+
 	$("#linkListBooks").click(showListBooksView);
-	$("#linkCreateBook").click(showCreateBookView);
+	$("#linkAddPhoto").click(showAddPhotoView);
 	$("#linkLogout").click(logout);
 
 	/* Submit Buttons */

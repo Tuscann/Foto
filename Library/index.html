@@ -15,12 +15,12 @@
 <header id="menu">
     <a href="#" class="hvr-sweep-to-left" id="linkHome">Home</a>
     <a href="#" class="hvr-sweep-to-left" id="linkProfile">Profile</a>
-    <a href="#" class="hvr-sweep-to-left" id="linkPictures">Pictures</a>
+    <a href="#" class="hvr-sweep-to-left" id="linkPhotos">Photos</a>
     <a href="#" class="hvr-sweep-to-left" id="linkVideos">Videos</a>
     <a href="#" class="hvr-sweep-to-left" id="linkLogin">Login</a>
     <a href="#" class="hvr-sweep-to-left" id="linkRegister">Register</a>
-    <a href="#" class="hvr-sweep-to-left" id="linkListBooks">List Books</a>
-    <a href="#" class="hvr-sweep-to-left" id="linkCreateBook">Create Book</a>
+   <!--<a href="#" class="hvr-sweep-to-left" id="linkListBooks">List Books</a>-->
+    <a href="#" class="hvr-sweep-to-left" id="linkAddPhoto">Add Photo</a>
     <a href="#" class="hvr-sweep-to-left" id="linkLogout">Logout</a>
 </header>
 
@@ -56,11 +56,11 @@
                 </div>
                 <div>Old password:</div>
                 <div>
-                    <input type="password" id="passProfile" required="tue"/>
+                    <input type="password" id="passProfile" required="true"/>
                 </div>
                 <div>New password:</div>
                 <div>
-                    <input type="password" id="newpassProfile" required="tue"/>
+                    <input type="password" id="newpassProfile" required="true"/>
                 </div>
                 <div>
                     <input type="submit" value="Update profile"/>
@@ -68,7 +68,7 @@
             </form>
         </div>
     </section>
-    <section id="PicturesView">
+    <section id="PhotosView">
         <table id="pepi">
             <div>
                 <td class><a base target="_blank"
@@ -213,7 +213,7 @@
             </div>
             <div>Password:</div>
             <div>
-                <input type="password" id="passLogin" required="tue"/>
+                <input type="password" id="passLogin" required="true"/>
             </div>
             <div>
                 <input type="submit" value="Login"/>
@@ -237,7 +237,7 @@
             </div>
             <div>Password:</div>
             <div>
-                <input type="password" id="passRegister" required="tue"/>
+                <input type="password" id="passRegister" required="true"/>
             </div>
             <div>
                 <input type="submit" value="Register"/>
@@ -250,21 +250,26 @@
             No books
         </div>
     </section>
-    <section id="viewCreateBook">
-        <h1>Create new book</h1>
-        <form id="formCreateBook">
+    <section id="viewAddPhoto">
+        <h1>Add new photo</h1>
+        <form id="formAddPhoto">
             <div>Title:</div>
             <div>
-                <input type="text" id="bookTitle" required="true"/>
+                <input type="text" id="photoTitle" required="true"/>
             </div>
             <div>Author:</div>
             <div>
-                <input type="text" id="bookAuthor" required="tue"/>
+                <input type="text" id="photoAuthor" required="true"/>
+            </div>
+            <div>URL:</div>
+            <div>
+                <input type="text" id="photoUrl" rows="10">
             </div>
             <div>Description:</div>
             <div>
                 <textarea id="bookDescription" rows="10"></textarea>
             </div>
+
             <div>
                 <input type="submit" value="Create"/>
             </div>
@@ -277,5 +282,11 @@
     </footer>
 </div>
 
+<<<<<<< HEAD
+=======
+<footer>
+    &copy; Tuscann Gallery Project &trade;
+</footer>
+>>>>>>> origin/master
 </body>
 </html>

@@ -25,20 +25,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/styles/site.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+              <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,30 +43,11 @@
       <file leaf-file-name="library.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/library.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="3961">
               <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
               <folding>
-                <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-                <element signature="n#!!block;n#showInfo#0" expanded="false" />
-                <element signature="n#!!block;n#showView#0" expanded="false" />
-                <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-                <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-                <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-                <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-                <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-                <element signature="n#!!block;n#login#0" expanded="false" />
-                <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-                <element signature="n#!!block;n#getProfile#0" expanded="false" />
-                <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-                <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-                <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-                <element signature="n#!!block;n#register#0" expanded="false" />
-                <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-                <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-                <element signature="n#!!block;n#createBook#0" expanded="false" />
-                <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-                <element signature="n#!!block;n#logout#0" expanded="false" />
-                <element signature="e#7615#8636#0" expanded="false" />
+                <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+                <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,8 +72,8 @@
         <option value="$PROJECT_DIR$/styles/hover.css" />
         <option value="$PROJECT_DIR$/testttttt.html" />
         <option value="$PROJECT_DIR$/scripts/library.js" />
-        <option value="$PROJECT_DIR$/styles/site.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/site.css" />
       </list>
     </option>
   </component>
@@ -283,12 +251,12 @@
       <workItem from="1472639711952" duration="5000" />
       <workItem from="1472645976579" duration="578000" />
       <workItem from="1472646668835" duration="738000" />
-      <workItem from="1472654995407" duration="1100000" />
+      <workItem from="1472654995407" duration="1696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59223000" />
+    <option name="totallyTimeSpent" value="59819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="24" width="1374" height="748" extended-state="6" />
@@ -339,20 +307,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -369,27 +324,8 @@
         <state relative-caret-position="3961">
           <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -398,20 +334,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="82" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,27 +351,8 @@
         <state relative-caret-position="884">
           <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -457,20 +361,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -487,27 +378,8 @@
         <state relative-caret-position="714">
           <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -516,20 +388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,27 +405,8 @@
         <state relative-caret-position="1054">
           <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -575,20 +415,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,27 +432,8 @@
         <state relative-caret-position="816">
           <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -634,20 +442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,27 +459,8 @@
         <state relative-caret-position="1037">
           <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -694,20 +470,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,27 +487,8 @@
         <state relative-caret-position="1037">
           <caret line="61" column="26" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="26" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -769,27 +513,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -798,20 +523,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,27 +547,8 @@
         <state relative-caret-position="952">
           <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -864,20 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,27 +581,8 @@
         <state relative-caret-position="986">
           <caret line="143" column="53" selection-start-line="143" selection-start-column="53" selection-end-line="143" selection-end-column="53" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -930,20 +591,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -966,20 +614,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,30 +640,11 @@
     <entry file="file://$PROJECT_DIR$/testttttt.html" />
     <entry file="file://$PROJECT_DIR$/scripts/library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="3961">
           <caret line="233" column="62" selection-start-line="233" selection-start-column="62" selection-end-line="233" selection-end-column="62" />
           <folding>
-            <element signature="n#!!block;n#showAjaxError#0" expanded="false" />
-            <element signature="n#!!block;n#showInfo#0" expanded="false" />
-            <element signature="n#!!block;n#showView#0" expanded="false" />
-            <element signature="n#!!block;n#showHomeView#0" expanded="false" />
-            <element signature="n#!!block;n#showLoginView#0" expanded="false" />
-            <element signature="n#!!block;n#showVideosView#0" expanded="false" />
-            <element signature="n#!!block;n#showPicturesView#0" expanded="false" />
-            <element signature="n#!!block;n#showProfileView#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="n#!!block;n#loginSuccess#0" expanded="false" />
-            <element signature="n#!!block;n#getProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfile#0" expanded="false" />
-            <element signature="n#!!block;n#updateProfileCallback#0" expanded="false" />
-            <element signature="n#!!block;n#showRegisterView#0" expanded="false" />
-            <element signature="n#!!block;n#register#0" expanded="false" />
-            <element signature="n#!!block;n#showListBooksView#0" expanded="false" />
-            <element signature="n#!!block;n#showCreateBookView#0" expanded="false" />
-            <element signature="n#!!block;n#createBook#0" expanded="false" />
-            <element signature="n#!!block;n#addBookComment#0" expanded="false" />
-            <element signature="n#!!block;n#logout#0" expanded="false" />
-            <element signature="e#7615#8636#0" expanded="false" />
+            <marker date="1472656796426" expanded="true" signature="299:366" ph="{...}" />
+            <marker date="1472656796426" expanded="false" signature="7946:8608" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1037,27 +653,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#3;n#div#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#0;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#0;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#1;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#2;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#th#3;n#tr#1;n#table#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
           <folding />
         </state>
       </provider>
